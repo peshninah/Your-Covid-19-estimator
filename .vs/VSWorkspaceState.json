@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.github\\actions\\jest-out",
+    "\\.github\\actions\\lhr-out",
+    "\\.github\\actions\\props-out",
+    "\\pytest-runner",
+    "\\src"
+  ],
+  "SelectedNode": "\\pytest-runner\\src",
+  "PreviewInSolutionExplorer": false
+}
