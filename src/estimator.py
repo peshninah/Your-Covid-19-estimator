@@ -5,9 +5,9 @@ def estimator(data):
      totalHospitalBeds = int(input())
      avgDailyIncomeInUSD = float(input())
      population = int(input())
-     return reportedCases,timeToElapse,totalHospitalBeds, avgDailyIncomeInUSD
+     return reportedCases,timeToElapse,totalHospitalBeds, avgDailyIncomeInUSD,periodType,population
 def Impact():
-    reportedCases,timeToElapse,totalHospitalBeds, avgDailyIncomeInUSD = estimator("data")
+    reportedCases,timeToElapse,totalHospitalBeds, avgDailyIncomeInUSD, periodType, population = estimator("data")
     currentlyInfected = reportedCases*10
     infectionsByRequestedTime = currentlyInfected*(2**(timeToElapse//3))
     severeCasesByRequestedTime = int(infectionsByRequestedTime * 0.15)
