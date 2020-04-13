@@ -1,7 +1,7 @@
 def estimator(data):
      reportedCases= int(input())
      timeToElapse= int(input())
-	 periodtype = "days"
+	 periodtype = input("days")
      totalHospitalBeds = int(input())
      avgDailyIncomeInUSD = float(input())
      population = int(input())
